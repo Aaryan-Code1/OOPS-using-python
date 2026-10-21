@@ -1,0 +1,17 @@
+class Student:
+    def __init__(self, name, roll, age, course, marks):
+        self.name = name
+        self.roll = roll
+        self.age = age
+        self.course = course
+        self.marks = marks
+
+    def display(self):
+        print(self.name, self.roll, self.age, self.course, self.marks)
+        print("Pass" if self.marks >= 40 else "Fail")
+
+s1 = Student("Ravi", 1, 20, "Python", 75)
+s2 = Student("Amit", 2, 21, "Java", 35)
+
+s1.display()
+s2.display()
