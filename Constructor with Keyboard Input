@@ -1,0 +1,18 @@
+class A:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def display(self):
+        print(self.a, self.b)
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+obj1 = A(a, b)
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+obj2 = A(a, b)
+
+obj1.display()
+obj2.display()
